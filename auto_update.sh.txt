@@ -1,0 +1,7 @@
+#!/bin/bash
+
+crontab -e
+
+sudo apt-get install cron-apt
+
+sudo ln -s /usr/sbin/cron-apt /etc/cron.weekly_(var/log/update-YYYYMMDD.log date+%Y%m%d)
