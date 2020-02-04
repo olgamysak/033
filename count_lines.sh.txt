@@ -1,5 +1,0 @@
-#!/bin/bash
-
-wget -c http://yoko.ukrtux.com:8899/versions.txt
-
-sort versions.txt | uniq --count | sort -nr
