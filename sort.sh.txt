@@ -1,7 +1,0 @@
-#!/bin/bash
-
-wget -c http://yoko.ukrtux.com:8899/versions.txt
-
-sort -k 2 sort versions.txt
-
-printf versions.txt
