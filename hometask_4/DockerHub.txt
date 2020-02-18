@@ -1,0 +1,11 @@
+docker login --username=yourhubusername --password=yourpassword
+ FROM readytalk/nodejs
+
+  WORKDIR /https://hub.docker.com/
+  ADD . / omysak
+  RUN npm install
+  EXPOSE 80
+
+ ENTRYPOINT ["/nodejs/bin/npm", "start"]
+
+docker build -t $omysak/$omysak/repo:tagname
